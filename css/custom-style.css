@@ -1,0 +1,37 @@
+#sticky-header .logo-img a::before {
+	content: '';
+	background: url(../img/before-logo.png);
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 43px;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+#sticky-header .logo-img a {
+	font: 25px  Poppins, sans-serif;; 
+	color: #fff;
+}
+#sticky-header .row {
+	height: 91px;
+}
+#sticky-header .row > [class*="col-xl"] {
+	padding-top: 10px !important;
+}
+.slider_area .single_slider .slider_info h3 {
+	font-size: 45px !important;
+}
+.footer .footer_logo a::before {
+	content: '';
+	background: url(../img/before-logo.png);
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 43px;
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.footer .footer_logo a {
+	font: 25px  Poppins, sans-serif;; 
+	color: #fff;
+}
