@@ -2697,7 +2697,7 @@ ul.gj-list-md li.disabled > [data-role="wrapper"] > [data-role="expander"] {
  .gj-datepicker-md [role="right-icon"] {
     position: absolute;
     right: 0px;
-    top: 0px;
+    top: 15px;
     font-size: 16px;
     color: #919191;
     margin-right: 15px;

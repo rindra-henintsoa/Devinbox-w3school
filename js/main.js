@@ -315,3 +315,17 @@ mailChimp();
         });
 
 })(jQuery);	
+
+  $('.soumettre').click(function() {
+      $('.popup-registration').dialog({
+      height: 150,
+      width: 200,
+      button: {
+        "OK" : function() {
+          $(this).dialog("close")
+        },
+        class: 'confirm'
+      }
+    })
+  })
+  
