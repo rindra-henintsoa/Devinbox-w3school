@@ -137,3 +137,69 @@ input[type=number] {
 	font: 25px  Poppins, sans-serif;; 
 	color: #fff;
 }
+
+.mod_body {
+	background: url('../img/banner/banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.module {
+	padding-top: 7rem;
+	padding-bottom: 3rem;
+	background: url('../img/banner/banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.module .module_title {
+	font-size: 22px;
+	text-align: center;
+	font-weight: bold;
+	margin: 25px 0;
+	color: #2ff2e9;
+}
+.module .mod_wrap {
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.module .mod_img img {
+	width: 225px;
+	height: 200px;
+}
+.module .mod_title {
+	margin: 10px 0;
+}
+.module .mod_title h4 {
+	text-transform: uppercase;
+	margin-bottom: 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+.module .mod_title ul {
+	padding-left: 10px;
+}
+.module .mod_title ul li {
+	line-height: 18px;
+}
+.module .mod_info {
+	margin: 10px 0; 
+}
+.module .mod_info strong {
+	font-family: "Poppins", sans-serif;
+}
+.module .mod_info span { 
+	display: block;
+ }
+ .mod_btn {
+ 	margin: 20px 0;
+ }
+ .mod_btn a {
+ 	border: none;
+ 	padding: 10px 20px;
+	border-radius: 5px;
+	color: #fff !important;
+	text-transform: capitalize;
+	font-family: "Poppins", sans-serif;
+	cursor: pointer;
+ }
