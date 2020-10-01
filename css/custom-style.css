@@ -59,6 +59,12 @@ input[type=number] {
 .form-row > .col {
 	margin: 20px;
 }
+.form-row .col i {
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+	color: #919191
+}
 #registration .button-wrap {
 	padding: 0 5rem;
 	margin: 25px 0;
@@ -150,12 +156,20 @@ input[type=number] {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.module i {
+	font-size: 15px;
+	margin-right: 10px;
+}
 .module .module_title {
-	font-size: 22px;
+	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
 	margin: 25px 0;
-	color: #2ff2e9;
+	color: #fff;
+	cursor: pointer;
+	background: #63dbe8;
+	padding: 10px 8px;
+	transition-duration: 1s;
 }
 .module .mod_wrap {
 	background: #fff;

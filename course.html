@@ -14,9 +14,12 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css"  media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/themify-icons.css">
     <link rel="stylesheet" href="css/nice-select.css">
     <link rel="stylesheet" href="css/flaticon.css">
@@ -28,7 +31,7 @@
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
-<body class="mod_body">
+<body>
     <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -39,23 +42,20 @@
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
                     <div class="row align-items-center no-gutters">
-                        <div class="col-xl-2 col-lg-2">
+                        <div class="col-xl-3 col-lg-3">
                             <div class="logo-img">
                                 <a href="index.html">
-                                    DEVINBOX
+                                    DevinboxLearning
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-7 col-lg-7">
-                            <div class="main-menu  d-none d-lg-block">
-                                
-                            </div>
+                        <div class="col-xl-6 col-lg-6">
                         </div>
                         <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                             <div class="log_chat_area d-flex align-items-center">
                                 <div class="live_chat_btn">
-                                    <a class="boxed_btn_orange" href="#">
-                                       All Courses
+                                    <a class="boxed_btn_orange" href="index.html">
+                                       Home
                                     </a>
                                 </div>
                             </div>
@@ -72,24 +72,15 @@
 
     <section class="module">
         <div class="container">
-             <div class="row">
-                <div class="col-md-3">
-                    <h2 class="module_title">Modules de base</h2>
-                </div>
-                <div class="col-md-3">
-                    <h2 class="module_title">Spécialisation</h2>
-                </div>
-                <div class="col-md-3">
-                    <h2 class="module_title">Modules spéciaux</h2>
-                </div>
-                <div class="col-md-3">
-                    <h2 class="module_title">Etudes et conception</h2>
-                </div>    
-            </div>
             <div class="row">
-                <div class="col-md-3 col-lg-3">
-                 
-                    <div class="mod_wrap">
+                <div class="accordeon col-md-3 col-lg-3">
+                    
+                    <div class="mod_base_title">
+                         <h2 class="module_title"><i class="fas fa-plus"></i>Modules de base</h2>     
+                    </div>
+
+                    <div class="mod_base_content">
+                        <div class="mod_wrap wow bounceIn">
                             <div class="mod_img">
                                 <img src="img/courses/1.png">
                             </div>
@@ -109,56 +100,62 @@
                             <div class="mod_btn">
                                 <a href="inscription.html" class="btn-primary">s'inscrire</a>
                             </div>  
-                    </div>
+                        </div>
                 
-                    <div class="mod_wrap">
-                        <div class="mod_img">
-                            <img src="img/courses/4.png">
+                        <div class="mod_wrap wow bounceIn" data-wow-duration="500" data-wow-delay="1s">
+                            <div class="mod_img">
+                                <img src="img/courses/4.png">
+                            </div>
+                            <div class="mod_title">
+                                <h4>Module 02</h4>
+                                <ul>
+                                    <li>PHP/MySQL</li>
+                                    <li>Javascript</li>
+                                    <li>Jquery</li>
+                                </ul>
+                            </div>
+                            <div class="mod_info">
+                                <span><strong>Duration:</strong> 5 scéances</span>
+                                <span><strong>Professor:</strong> jane doe</span>
+                                <span><strong>Student:</strong> 100+</span>
+                            </div>
+                            <div class="mod_btn">
+                                <a href="inscription.html" class="btn-primary">s'inscrire</a>
+                            </div>  
                         </div>
-                        <div class="mod_title">
-                            <h4>Module 02</h4>
-                            <ul>
-                                <li>PHP/MySQL</li>
-                                <li>Javascript</li>
-                                <li>Jquery</li>
-                            </ul>
-                        </div>
-                        <div class="mod_info">
-                            <span><strong>Duration:</strong> 5 scéances</span>
-                            <span><strong>Professor:</strong> jane doe</span>
-                            <span><strong>Student:</strong> 100+</span>
-                        </div>
-                        <div class="mod_btn">
-                            <a href="inscription.html" class="btn-primary">s'inscrire</a>
-                        </div>  
-                    </div>
                 
-                    <div class="mod_wrap">
-                        <div class="mod_img">
-                            <img src="img/courses/6.png">
-                        </div>
-                        <div class="mod_title">
-                            <h4>Module 03</h4>
-                            <ul>
-                                <li>Programmation <br>Orientée Objet</li>
-                            </ul>
-                        </div>
-                        <div class="mod_info">
-                            <span><strong>Duration:</strong> 5 scéances</span>
-                            <span><strong>Professor:</strong> jane doe</span>
-                            <span><strong>Student:</strong> 100+</span>
-                        </div>
-                        <div class="mod_btn">
-                            <a href="inscription.html" class="btn-primary">s'inscrire</a>
-                        </div>  
-                    </div>
-                
+                        <div class="mod_wrap wow bounceIn" data-wow-duration="1s" data-wow-delay="2s">
+                            <div class="mod_img">
+                                <img src="img/courses/6.png">
+                            </div>
+                            <div class="mod_title">
+                                <h4>Module 03</h4>
+                                <ul>
+                                    <li>Programmation <br>Orientée Objet</li>
+                                </ul>
+                            </div>
+                            <div class="mod_info">
+                                <span><strong>Duration:</strong> 5 scéances</span>
+                                <span><strong>Professor:</strong> jane doe</span>
+                                <span><strong>Student:</strong> 100+</span>
+                            </div>
+                            <div class="mod_btn">
+                                <a href="inscription.html" class="btn-primary">s'inscrire</a>
+                            </div>  
+                        </div> 
 
+                    </div>
+                    
                 </div>
                 
-                <div class="mod_bg col-md-3 col-lg-3">
+                <div class="accordeon col-md-3 col-lg-3">
                     
-                     <div class="mod_wrap">
+                    <div class="mod_specialisation_title">
+                        <h2 class="module_title"><i class="fas fa-plus"></i>Spécialisation</h2>
+                    </div>
+
+                    <div class="mod_specialisation_content">
+                        <div class="mod_wrap wow bounceIn">
                         <div class="mod_img">
                             <img src="img/courses/2.png">
                         </div>
@@ -180,7 +177,7 @@
                         </div>  
                     </div>
 
-                    <div class="mod_wrap">
+                    <div class="mod_wrap wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="mod_img">
                             <img src="img/courses/5.png">
                         </div>
@@ -202,7 +199,7 @@
                         </div>  
                     </div>
 
-                    <div class="mod_wrap">
+                    <div class="mod_wrap wow bounceIn" data-wow-duration="1s" data-wow-delay="2s">
                         <div class="mod_img">
                             <img src="img/courses/4.png">
                         </div>
@@ -222,12 +219,19 @@
                             <a href="inscription.html" class="btn-primary">s'inscrire</a>
                         </div>  
                     </div>
+                    </div>
 
                 </div>
                 
-                <div class="col-md-3 col-lg-3">
+                <div class="accordeon col-md-3 col-lg-3">
                     
-                    <div class="mod_wrap">
+                    <div class="mod_speciaux_title">
+                        <h2 class="module_title"><i class="fas fa-plus"></i>Modules spéciaux</h2>
+                    </div>
+
+                    <div class="mod_speciaux_content">
+                        
+                        <div class="mod_wrap wow bounceIn">
                         <div class="mod_img">
                             <img src="img/courses/3.png">
                         </div>
@@ -249,7 +253,7 @@
                         </div>  
                     </div>
 
-                    <div class="mod_wrap">
+                    <div class="mod_wrap wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="mod_img">
                             <img src="img/courses/2.png">
                         </div>
@@ -270,11 +274,19 @@
                         </div>  
                     </div>
 
+                    </div>
+
                 </div>
 
-                <div class="col-md-3 col-lg-3">
+                <div class="accordeon col-md-3 col-lg-3">
                     
-                    <div class="mod_wrap">
+                    <div class="mod_concept_title">
+                        <h2 class="module_title"><i class="fas fa-plus"></i>Etudes et conception</h2>
+                    </div>
+
+                    <div class="mod_concept_content">
+                        
+                        <div class="mod_wrap wow bounceIn" >
                         <div class="mod_img">
                             <img src="img/courses/5.png">
                         </div>
@@ -301,7 +313,7 @@
                         </div>  
                     </div>
 
-                    <div class="mod_wrap">
+                    <div class="mod_wrap wow bounceIn" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="mod_img">
                             <img src="img/courses/3.png">
                         </div>
@@ -322,6 +334,8 @@
                         <div class="mod_btn">
                             <a href="inscription.html" class="btn-primary">s'inscrire</a>
                         </div>  
+                    </div>
+
                     </div>
 
                 </div>
@@ -500,6 +514,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -525,6 +541,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 
 </html>

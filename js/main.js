@@ -328,4 +328,28 @@ mailChimp();
       }
     })
   })
-  
+   var hide1 = $('.accordeon > .mod_base_content').hide();
+            var hide2 = $('.accordeon > .mod_specialisation_content').hide();
+            var hide3 = $('.accordeon > .mod_speciaux_content').hide();
+            var hide4 = $('.accordeon > .mod_concept_content').hide();
+
+
+            $('.accordeon > .mod_base_title').click(function(){
+                $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+                $(this).next().slideToggle(500);
+            })
+
+            $('.accordeon > .mod_specialisation_title').click(function(){
+                $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+                $(this).next().slideToggle(500);
+            })
+
+             $('.accordeon > .mod_speciaux_title').click(function(){
+                $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+                $(this).next().slideToggle(500);
+            })
+
+             $('.accordeon > .mod_concept_title').click(function(){
+                $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+                $(this).next().slideToggle(500);
+            })
