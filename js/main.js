@@ -328,7 +328,8 @@ mailChimp();
       }
     })
   })
-   var hide1 = $('.accordeon > .mod_base_content').hide();
+
+            var hide1 = $('.accordeon > .mod_base_content').hide();
             var hide2 = $('.accordeon > .mod_specialisation_content').hide();
             var hide3 = $('.accordeon > .mod_speciaux_content').hide();
             var hide4 = $('.accordeon > .mod_concept_content').hide();
