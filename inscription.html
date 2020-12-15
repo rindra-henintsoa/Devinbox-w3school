@@ -39,21 +39,25 @@
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid p-0">
                     <div class="row align-items-center no-gutters">
-                        <div class="col-xl-3 col-lg-3">
+                        <div class=" col-lg-5 col-md-5">
                             <div class="logo-img">
                                 <a href="index.html">
                                     DevinboxLearning
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-6 col-lg-6 d-none">
                         </div>
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                        <div class=" col-lg-7 d-lg-block col-md-7">
                             <div class="log_chat_area d-flex align-items-center">
-                                <div class="live_chat_btn">
-                                    <a class="boxed_btn_orange" href="course.html">
+                                <div class="live_chat_btn dropdown">
+                                    <a class="boxed_btn_orange"id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                        All Courses
                                     </a>
+                                    <ul class="dropdown-cursus dropdown-menu"  aria-labelledby="dropdownMenuButton">
+                                        <li><a href="course.html"><i class="ti-book"></i>Parcours Web</a></li>
+                                        <li><a href="java_course.html"><i class="ti-book"></i>Parcours JAVA</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -134,27 +138,25 @@
 							  	</select>
 							</div>
 					</div>
-
 				</form>
 
-				<div class="popup-registration">
+				<div class="button-wrap">
+                    <input type="submit" class="soumettre-btn" value="soumettre" name="">
+					<a href="index.html" class="annuler-btn">annuler</a>
+				</div>
+
+                <div class="popup-registration">
                     <div class="popup-registration-title">
                         <h3>Informations reçues</h3>
                     </div>
 
-					<div class="popup-registration-msg">
+                    <div class="popup-registration-msg">
                         <span>Vos informations ont été enregistrées avec succès. <br><br> Nous allons vous contacter bientôt.
                         </span>               
                     </div>
 
                         <button class="OK-btn">OK</button>
-				</div>
-
-				<div class="button-wrap">
-					<button type="submit" class="soumettre-btn">soumettre</button>
-					<a href="index.html" class="annuler-btn">annuler</a>
-				</div>
-
+                </div>
 			</div>
 		</div>
 	</section>

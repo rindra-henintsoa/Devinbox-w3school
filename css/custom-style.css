@@ -1,3 +1,40 @@
+.header-area {
+	padding-bottom: 8px;
+}
+.header-area .main-header-area .logo-img {
+    text-align: left !important;
+    padding-left: 30px !important;
+}
+.live_chat_btn .boxed_btn_orange {
+	position: relative;
+}
+/*.live_chat_btn:hover > ul.dropdown-cursus {
+		visibility: visible;
+}*/
+.live_chat_btn .dropdown-cursus {
+	position: absolute;
+	width: 200px;
+	background-color: rgba(255, 255, 255, .8);
+	right: 25px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border-top: 5px solid #04d2c8;
+	transition: all 400ms ease-in;
+	transform: translate3d(-55px, 50px, 0px) !important;
+}
+.live_chat_btn .dropdown-cursus li {
+	margin-bottom: 7px;
+}
+.live_chat_btn .dropdown-cursus a {
+	color: #000 !important;
+	padding: 12px 15px !important;
+}
+.live_chat_btn .dropdown-cursus li:hover a {
+	padding-left: 25px !important;
+}
+.live_chat_btn .dropdown-cursus a i {
+	color: #04d2c8 !important;
+}
 #sticky-header .logo-img a::before {
 	content: '';
 	background: url(../img/before-logo.png);
@@ -179,7 +216,7 @@ input[type=number] {
 	visibility: hidden;
 }
 .module .mod_img img {
-	width: 225px;
+	width: 100%;
 	height: 200px;
 }
 .module .mod_title {
@@ -218,3 +255,87 @@ input[type=number] {
 	font-family: "Poppins", sans-serif;
 	cursor: pointer;
  }
+ #formateurs {
+ 	background: url('../img/banner/banner.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 45px 0;
+ }
+ #formateurs .formateur-content {
+ 	text-align: center;
+ 	padding: 25px;
+ 	background-color: #fff;
+ 	margin: 15px 25px;
+ 	border-radius: 5px;
+ 	box-shadow: 0px 2px 6px 3px #8ec9ff;
+ }
+  #formateurs .formateur-content .formateur-img {
+  	width: 150px;
+  	height: 150px;
+  	border-radius: 50%;
+  }
+  #formateurs .formateur-content .formateur-nom {
+  	margin: 20px 0;
+  	color: #72d5e4;
+  	font-size: 25px;
+  }
+  #formateurs .formateur-content .separator {
+  	width: 60px;
+  }
+  #formateurs .formateur-content .formateur-cours li {
+  	font-size: 20px;
+  }
+
+  @media screen and (max-width: 991px) {
+  	 #formateurs .formateur-content {
+  	 	margin: 15px;
+  	 }
+  	 .slider_area .single_slider {
+	height: 65vh !important;
+	 }
+	 .slider_area .single_slider .slider_info h3 {
+    font-size: 28px !important;
+	 }
+	 #registration .registration-title h2 {
+		font-size: 25px;
+		margin-top: 15px;
+	}
+  }
+   @media screen and (max-width: 576px) {
+   	.header-area .log_chat_area {
+   		padding: 0;
+   	}
+   	.live_chat_btn {
+   		margin: auto;
+   	}
+   	.header-area .main-header-area.sticky {
+    padding: 25px 10px;
+	}
+	.live_chat_btn .dropdown-cursus {
+		transform: translate3d(-35px, 50px, 0px) !important;
+	}
+	#registration .form-row {
+		display: block;
+	}
+	.form-row > .col {
+    margin: 0px;
+    padding-bottom: 5px;
+	}
+	#registration {
+		height: 120vh;
+	} 
+	.soumettre-btn {
+		margin: 20px auto;
+	}
+	.annuler-btn {
+		margin: 10px;
+		float: none;
+	}
+	#registration .button-wrap {
+		margin: 0;
+	}
+	.header-area .main-header-area .logo-img {
+	    text-align: center !important;
+	    padding-left: 0px !important;
+	}
+   }

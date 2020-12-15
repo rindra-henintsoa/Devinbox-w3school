@@ -354,3 +354,5 @@ mailChimp();
                 $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
                 $(this).next().slideToggle(500);
             })
+
+ 
